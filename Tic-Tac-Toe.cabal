@@ -4,7 +4,7 @@ name:               Tic-Tac-Toe
 -- PVP summary:     +-+------- breaking API changes
 --                  | | +----- non-breaking API additions
 --                  | | | +--- code changes with no API change
-version:            0.1.0.0
+version:            1.0.0.0
 author:             BonewheelMaster
 maintainer:         bonewheelmaster@proton.me
 build-type:         Simple
