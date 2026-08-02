@@ -1,0 +1,31 @@
+cabal-version:      3.0
+name:               Tic-Tac-Toe
+
+-- PVP summary:     +-+------- breaking API changes
+--                  | | +----- non-breaking API additions
+--                  | | | +--- code changes with no API change
+version:            0.1.0.0
+author:             BonewheelMaster
+maintainer:         bonewheelmaster@proton.me
+build-type:         Simple
+
+common settings
+    ghc-options: -Wall -Wno-type-defaults -O2 -j
+    build-depends:
+        , base
+        , containers
+    other-modules:
+        , Bot
+        , Game
+        , Game.Internal
+        , UI
+        , UI.Input
+        , UI.Output
+        , UI.State
+        , UI.State.Internal
+    default-language: GHC2021
+    hs-source-dirs:   src
+
+executable Tic-Tac-Toe
+    import:           settings
+    main-is:          Main.hs
