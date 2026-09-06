@@ -1,8 +1,8 @@
 {-# LANGUAGE MultiWayIf #-}
 module UI.Input where
 
-import UI.State
 import Game
+import UI.State
 
 import Data.Char
 import Data.Maybe
